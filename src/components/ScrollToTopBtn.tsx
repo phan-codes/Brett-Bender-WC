@@ -6,7 +6,7 @@ const ScrollToTopBtn = ({ scrollToTop, isVisible }) => {
 			{isVisible && (
 				<button
 					onClick={scrollToTop}
-					className="fixed right-10 bottom-20 rounded-[100%] py-1 px-3 bg-[#e8bc37] text-3xl text-[#052DB9] shadow-lg shadow-black cursor-pointer animate-bounce md:py-2 md:px-5">
+					className="fixed right-10 bottom-20 rounded-[100%] py-1 px-3 bg-[#e8bc37] text-xl text-[#052DB9] shadow-lg shadow-black cursor-pointer animate-bounce md:py-2 md:px-5 md:text-3xl">
 					&#8593;
 				</button>
 			)}
