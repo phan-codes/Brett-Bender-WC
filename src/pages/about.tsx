@@ -1,6 +1,7 @@
 import React from "react";
 import Reveal from "../components/Reveal";
 import { Link } from "react-router-dom";
+import profileImg from "../assets/BrettBender.jpg";
 
 const AboutPage = () => {
 	return (
@@ -49,7 +50,7 @@ const AboutPage = () => {
 					<div className="basis-[50%] flex flex-col justify-center items-center py-10 gap-y-2">
 						<Reveal>
 							<div className=" rounded-full border-[#052DB9] border-[3px] border-solid bg-[#052DB9] shadow-lg">
-								<img src="/BrettBender.jpg" alt="Brett" width={100} height={100} className="rounded-full" />
+								<img src={profileImg} alt="Brett" width={100} height={100} className="rounded-full" />
 							</div>
 						</Reveal>
 						<Reveal>
