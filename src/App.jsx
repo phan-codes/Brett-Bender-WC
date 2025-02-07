@@ -9,6 +9,7 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import ScrollToTopBtn from "./components/ScrollToTopBtn";
 import ScrollToTop from "./components/ScrollToTop";
+import NotFoundPage from "./pages/notfoundpage";
 
 const Layout = () => {
 	const [isVisible, setIsVisible] = useState(false);
@@ -53,7 +54,7 @@ const router = createBrowserRouter([
 			{ path: "/contact", element: <ContactPage /> },
 			{ path: "/services", element: <ServicesPage /> },
 			{ path: "/services/:name", element: <RecentService /> },
-			// {path: "*", element: <NotFoundPage/>},
+			{ path: "*", element: <NotFoundPage /> },
 		],
 	},
 ]);
