@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+@font-face {
+	font-family: "NotoSans";
+	src: url("assets/fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.woff2") format("woff2");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("assets/fonts/Poppins/Poppins-Regular.woff2") format("woff2");
+	font-weight: 700;
+}
+
+@theme {
+	--breakpoint-sm: 480px;
+	--breakpoint-md: 768px;
+	--breakpoint-lg: 976px;
+	--breakpoint-xl: 1440px;
+
+	/* FONTS */
+	--font-Noto: "NotoSans", "sans-serif";
+	--font-Poppins: "Poppins", "NotoSans", "sans-serif";
+
+	/* ANIMATION */
+	--animate-slide: slide 20s linear infinite;
+
+	@keyframes slide {
+		0% {
+			transform: translateX(0%);
+		}
+		100% {
+			transform: translateX(-100%);
+		}
+	}
+}
+
+@utility paused {
+	animation-play-state: paused;
+}
