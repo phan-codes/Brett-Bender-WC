@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const GetStarted = () => {
 	return (
-		<div className="bg-[#052DB9] font-Noto tracking-wider flex flex-col items-center justify-center text-center text-gray-200 gap-y-6 py-24">
+		<div className="bg-[#052DB9] font-Noto tracking-wider flex flex-col items-center justify-center text-center text-gray-200 gap-y-6 py-24 px-5">
 			<Reveal>
 				<h1 className="font-semibold text-2xl md:text-3xl">Ready for the design changes you need? </h1>
 			</Reveal>
