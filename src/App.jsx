@@ -7,7 +7,6 @@ import ServicesPage from "./pages/services";
 import RecentService from "./pages/recentservice";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
-import { HelmetProvider } from "react-helmet-async";
 import ScrollToTopBtn from "./components/ScrollToTopBtn";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -60,11 +59,7 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-	return (
-		<HelmetProvider>
-			<RouterProvider router={router} />;
-		</HelmetProvider>
-	);
+	return <RouterProvider router={router} />;
 }
 
 export default App;
