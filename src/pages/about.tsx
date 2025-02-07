@@ -1,23 +1,20 @@
 import React from "react";
 import Reveal from "../components/Reveal";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
 
 const AboutPage = () => {
 	return (
 		<>
-			<Helmet>
-				<title>About | Brett Bender Wall Covering</title>
-				<meta
-					name="description"
-					content="About Mr. Brett Bender, CEO Of Brett Bender Wall Covering and How it Was Founded"
-				/>
-				<meta property="og:title" content="About | Brett Bender Wall Covering" />
-				<meta
-					property="og:description"
-					content="About Mr. Brett Bender, CEO Of Brett Bender Wall Covering and How it Was Founded"
-				/>
-			</Helmet>
+			<title>About | Brett Bender Wall Covering</title>
+			<meta
+				name="description"
+				content="About Mr. Brett Bender, CEO Of Brett Bender Wall Covering and How it Was Founded"
+			/>
+			<meta property="og:title" content="About | Brett Bender Wall Covering" />
+			<meta
+				property="og:description"
+				content="About Mr. Brett Bender, CEO Of Brett Bender Wall Covering and How it Was Founded"
+			/>
 			<section className="flex flex-col justify-center items-center w-full h-screen text-center dark:bg-black">
 				<Reveal>
 					<div className="flex flex-col justify-center items-center w-full">

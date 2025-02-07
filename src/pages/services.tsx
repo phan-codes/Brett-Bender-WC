@@ -3,17 +3,14 @@ import { services, recents } from "../../utils/services";
 import { Carousel } from "../components/Carousel";
 import Reveal from "../components/Reveal";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
 
 const ServicesPage = () => {
 	return (
 		<>
-			<Helmet>
-				<title>Services | Brett Bender Wall Covering</title>
-				<meta name="description" content="What we offer at Brett Bender Wall Covering" />
-				<meta property="og:title" content="Services | Brett Bender Wall Covering" />
-				<meta property="og:description" content="What we offer at Brett Bender Wall Covering" />
-			</Helmet>
+			<title>Services | Brett Bender Wall Covering</title>
+			<meta name="description" content="What we offer at Brett Bender Wall Covering" />
+			<meta property="og:title" content="Services | Brett Bender Wall Covering" />
+			<meta property="og:description" content="What we offer at Brett Bender Wall Covering" />
 			<section className="py-14 dark:bg-black">
 				<Reveal>
 					<div className="bg-[#052DB9] flex items-center justify-center text-center h-64 font-Noto tracking-wider py-6 px-7">

@@ -1,17 +1,14 @@
 import React from "react";
 import Reveal from "../components/Reveal";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
 
 const ContactPage = () => {
 	return (
 		<>
-			<Helmet>
-				<title>Contact | Brett Bender Wall Covering</title>
-				<meta name="description" content="Contact Information for  Brett Bender Wall Covering" />
-				<meta property="og:title" content="Contact | Brett Bender Wall Covering" />
-				<meta property="og:description" content="Contact Information for  Brett Bender Wall Covering" />
-			</Helmet>
+			<title>Contact | Brett Bender Wall Covering</title>
+			<meta name="description" content="Contact Information for  Brett Bender Wall Covering" />
+			<meta property="og:title" content="Contact | Brett Bender Wall Covering" />
+			<meta property="og:description" content="Contact Information for  Brett Bender Wall Covering" />
 			<section className="flex flex-col justify-center items-center w-full text-center dark:bg-black">
 				<div className="flex flex-col justify-center items-center lg:flex-row w-full lg:items-start">
 					<div className=" py-10 px-7 w-full lg:basis-[50%] lg:px-10">
