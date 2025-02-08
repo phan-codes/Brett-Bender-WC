@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const NotFoundPage = () => {
 	return (
-		<>
+		<section>
 			<title>404 Error | Page Not Found | Brett Bender Wall Covering</title>
 			<meta property="og:title" content="Recent Services | Brett Bender Wall Covering" />
 			<meta property="og:description" content="Page Not Found" />
@@ -18,7 +18,7 @@ const NotFoundPage = () => {
 					Back to Home
 				</Link>
 			</div>
-		</>
+		</section>
 	);
 };
 

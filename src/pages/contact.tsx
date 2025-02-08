@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 
 const ContactPage = () => {
 	return (
-		<>
+		<section>
 			<title>Contact | Brett Bender Wall Covering</title>
 			<meta name="description" content="Contact Information for  Brett Bender Wall Covering" />
 			<meta property="og:title" content="Contact | Brett Bender Wall Covering" />
 			<meta property="og:description" content="Contact Information for  Brett Bender Wall Covering" />
-			<section className="flex flex-col justify-center items-center w-full text-center dark:bg-black">
+			<div className="flex flex-col justify-center items-center w-full text-center dark:bg-black">
 				<div className="flex flex-col justify-center items-center lg:flex-row w-full lg:items-start">
 					<div className=" py-10 px-7 w-full lg:basis-[50%] lg:px-10">
 						<h1 className=" w-44 font-bold text-lg dark:text-gray-300">
@@ -121,8 +121,8 @@ const ContactPage = () => {
 						</Reveal>
 					</div>
 				</div>
-			</section>
-		</>
+			</div>
+		</section>
 	);
 };
 

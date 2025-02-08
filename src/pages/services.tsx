@@ -6,12 +6,12 @@ import { Link } from "react-router-dom";
 
 const ServicesPage = () => {
 	return (
-		<>
+		<section>
 			<title>Services | Brett Bender Wall Covering</title>
 			<meta name="description" content="What we offer at Brett Bender Wall Covering" />
 			<meta property="og:title" content="Services | Brett Bender Wall Covering" />
 			<meta property="og:description" content="What we offer at Brett Bender Wall Covering" />
-			<section className="py-14 dark:bg-black">
+			<div className="py-14 dark:bg-black">
 				<Reveal>
 					<div className="bg-[#052DB9] flex items-center justify-center text-center h-64 font-Noto tracking-wider py-6 px-7">
 						<h1 className="font-semibold text-3xl leading-[50px] md:text-4xl md:leading-[60px] text-gray-300">
@@ -83,8 +83,8 @@ const ServicesPage = () => {
 						</div>
 					</Reveal>
 				</div>
-			</section>
-		</>
+			</div>
+		</section>
 	);
 };
 

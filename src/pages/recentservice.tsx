@@ -10,7 +10,7 @@ const RecentDisplayPage = ({ params }: { params: Promise<{ id: number }> }) => {
 	const recent = recents.find((recent) => recent?.name === name) as RecentServicesTypeProp;
 
 	return (
-		<>
+		<section>
 			<title>Recent Services | Brett Bender Wall Covering</title>
 			<meta name="description" content="Explore the recent services of Brett Bender Wall Covering" />
 			<meta property="og:title" content="Recent Services | Brett Bender Wall Covering" />
@@ -27,7 +27,7 @@ const RecentDisplayPage = ({ params }: { params: Promise<{ id: number }> }) => {
 					</Carousel>
 				</div>
 			</div>
-		</>
+		</section>
 	);
 };
 

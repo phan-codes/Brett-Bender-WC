@@ -5,7 +5,7 @@ import profileImg from "../assets/BrettBender.jpg";
 
 const AboutPage = () => {
 	return (
-		<>
+		<section>
 			<title>About | Brett Bender Wall Covering</title>
 			<meta
 				name="description"
@@ -16,7 +16,7 @@ const AboutPage = () => {
 				property="og:description"
 				content="About Mr. Brett Bender, CEO Of Brett Bender Wall Covering and How it Was Founded"
 			/>
-			<section className="flex flex-col justify-center items-center w-full text-center dark:bg-black">
+			<div className="flex flex-col justify-center items-center w-full text-center dark:bg-black">
 				<Reveal>
 					<div className="flex flex-col justify-center items-center w-full">
 						<h1 className="py-5 w-44 font-bold font-Noto tracking-wider text-lg dark:text-gray-300">
@@ -68,8 +68,8 @@ const AboutPage = () => {
 						</Reveal>
 					</div>
 				</div>
-			</section>
-		</>
+			</div>
+		</section>
 	);
 };
 
